@@ -1,2 +1,2 @@
 #!/bin/bash
-mkadir -m 751 /tmp/h/my_dir
+mkadir -m 751 my_dir
