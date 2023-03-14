@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "$(set | grep '^[[:alpha:]_][[:alnum:]_]*=.*$')"
+echo "Environment variables:"
+echo "$(env)"
+echo "$(declare -F)"

@@ -1,0 +1,4 @@
+#!/bin/bash
+trueknowledge=$TRUEKNOWLEDGE
+result=$(expr $trueknowledge + 128)
+echo $result
