@@ -1,5 +1,2 @@
 #!/bin/bash
-power=$POWER
-divide=$DIVIDE
-result=$(echo "scale=0; $power / $divide" | bc)
-echo $result
+echo $((POWER / DIVIDE))
